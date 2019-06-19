@@ -20,10 +20,10 @@ class _MyHomePageState extends State<AppPage>
 
   String appBarTitle = tabData[0]['text'];
   static List tabData = [
-    {'text': '业界动态', 'icon': new Icon(Icons.language)},
-    {'text': 'WIDGET', 'icon': new Icon(Icons.extension)},
-    {'text': '组件收藏', 'icon': new Icon(Icons.favorite)},
-    {'text': '关于手册', 'icon': new Icon(Icons.import_contacts)}
+    {'text': '首页', 'icon': new Icon(Icons.cake)},
+    {'text': '分类', 'icon': new Icon(Icons.apps)},
+    {'text': '购物车', 'icon': new Icon(Icons.add_shopping_cart)},
+    {'text': '个人中心', 'icon': new Icon(Icons.account_circle)}
   ];
   List<Widget> myTabs = [];
 
